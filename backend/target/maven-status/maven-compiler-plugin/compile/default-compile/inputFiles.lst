@@ -1,0 +1,10 @@
+C:\spring_project\Emp_management\backend\src\main\java\com\example\employeeapp\config\WebConfig.java
+C:\spring_project\Emp_management\backend\src\main\java\com\example\employeeapp\controller\EmployeeController.java
+C:\spring_project\Emp_management\backend\src\main\java\com\example\employeeapp\dto\EmployeeDTO.java
+C:\spring_project\Emp_management\backend\src\main\java\com\example\employeeapp\EmployeeAppApplication.java
+C:\spring_project\Emp_management\backend\src\main\java\com\example\employeeapp\entity\Employee.java
+C:\spring_project\Emp_management\backend\src\main\java\com\example\employeeapp\exception\DuplicateResourceException.java
+C:\spring_project\Emp_management\backend\src\main\java\com\example\employeeapp\exception\GlobalExceptionHandler.java
+C:\spring_project\Emp_management\backend\src\main\java\com\example\employeeapp\exception\ResourceNotFoundException.java
+C:\spring_project\Emp_management\backend\src\main\java\com\example\employeeapp\repository\EmployeeRepository.java
+C:\spring_project\Emp_management\backend\src\main\java\com\example\employeeapp\service\EmployeeService.java

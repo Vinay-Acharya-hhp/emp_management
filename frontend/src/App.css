@@ -1,0 +1,153 @@
+.app-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #1f2937;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+.alert {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 24px;
+}
+
+@media (max-width: 800px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-panel, .list-panel {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.employee-form h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.form-row {
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #374151;
+}
+
+.form-row input {
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.error {
+  color: #dc2626;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: white;
+  border: none;
+}
+
+.btn-secondary {
+  background: #e5e7eb;
+  border: none;
+}
+
+.btn-danger {
+  background: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fca5a5;
+}
+
+.btn-small {
+  padding: 4px 10px;
+  font-size: 12px;
+  margin-right: 6px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th, .employee-table td {
+  text-align: left;
+  padding: 10px 8px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+}
+
+.employee-table th {
+  color: #6b7280;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.status-text {
+  color: #6b7280;
+  padding: 20px 0;
+}
