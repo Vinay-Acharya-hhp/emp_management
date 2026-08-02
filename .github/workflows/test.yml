@@ -1,0 +1,15 @@
+name: test
+on:
+ push:
+    branches: [main]
+jobs:
+    testing:
+        runs-on: ubuntu-katest
+        steps:
+          - name: Checkout
+            uses: actions/checkout@v4
+          - name: testing
+            run: echo "helloe world"   
+
+
+            
