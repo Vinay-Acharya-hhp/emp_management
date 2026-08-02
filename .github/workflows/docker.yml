@@ -3,7 +3,7 @@ on:
   workflow_run:
     workflows:
       - Api CI
-      - web CI
+      - Web CI
     types:
       - completed
 
