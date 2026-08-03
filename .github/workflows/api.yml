@@ -20,8 +20,8 @@ jobs:
         env:
           MYSQL_ROOT_PASSWORD: root
           MYSQL_DATABASE: testdb
-          MYSQL_USER: root
-          MYSQL_PASSWORD: root
+          MYSQL_USER: test
+          MYSQL_PASSWORD: test
         ports:
           - 3306:3306
         options: >-
@@ -43,8 +43,8 @@ jobs:
         run: mvn clean verify
         env:
           SPRING_DATASOURCE_URL: jdbc:mysql://localhost:3306/testdb
-          SPRING_DATASOURCE_USERNAME: root
-          SPRING_DATASOURCE_PASSWORD: root
+          SPRING_DATASOURCE_USERNAME: test
+          SPRING_DATASOURCE_PASSWORD: test
 
       - name: Upload Jar
         uses: actions/upload-artifact@v4
